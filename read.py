@@ -28,5 +28,4 @@ import cv2 as cv
 ####### Resizing and Rescaling images & videos ########
 #######################################################
 
-
-
+def rescaleFrame(frame, scale=0.75)
