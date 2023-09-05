@@ -17,7 +17,7 @@ capture = cv.VideoCapture('Resources/Videos/dog.mp4')
 while True:
     isTrue, frame = capture.read()
 
-    frame_resized = rescaleFrame(frame)
+    frame_resized = rescaleFrame(frame, 0.2)
 
     cv.imshow('Video', frame)
     cv.imshow('Video Resized', frame_resized)
